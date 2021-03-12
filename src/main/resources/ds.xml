@@ -1,0 +1,14 @@
+<datasource>
+    <ds id="mysql">
+        <url>jdbc:mysql://localhost:3306/story?useSSL=false&amp;characterEncoding=UTF-8</url>
+        <username>root</username>
+        <password>root</password>
+    </ds>
+
+    <ds id="local_mysql">
+        <url>jdbc:mysql://localhost:3306/story?useSSL=false&amp;characterEncoding=UTF-8</url>
+        <username>root</username>
+        <password>root</password>
+    </ds>
+
+</datasource>

@@ -1,0 +1,19 @@
+<sql>
+    <select id="getUser" db="mysql">
+        select * from user
+        <where>
+            <if test = "id != null">
+                id &lt;= #{id}
+            </if>
+        </where>
+    </select>
+
+    <select id="getUserIn" db="local_mysql">
+        select * from user where id in
+        <foreach collection="ids" open="(" close=")" separator=",">
+            #{item}
+        </foreach>
+
+    </select>
+
+</sql>
