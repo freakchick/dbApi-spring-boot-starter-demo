@@ -23,7 +23,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.jq</groupId>
+            <groupId>com.gitee.freakchicken</groupId>
             <artifactId>dbApi-spring-boot-starter</artifactId>
             <version>1.0</version>
         </dependency>

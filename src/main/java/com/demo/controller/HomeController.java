@@ -1,7 +1,8 @@
 package com.demo.controller;
 
-import com.jq.dbapi.DBApi;
-import com.jq.dbapi.entity.ResponseDto;
+
+import com.gitee.freakchicken.DBApi;
+import com.gitee.freakchicken.entity.ResponseDto;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
