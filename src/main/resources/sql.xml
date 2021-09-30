@@ -1,5 +1,5 @@
 <sql>
-    <defaultDB>local_mysql</defaultDB>
+    <defaultDB>mysql</defaultDB>
 
     <select id="getUser">
         select * from user
