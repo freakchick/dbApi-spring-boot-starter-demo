@@ -1,0 +1,12 @@
+<sql>
+    <defaultDB>mysql</defaultDB>
+
+    <sql id="getUserById">
+        select * from student where id = #{id}
+    </sql>
+
+    <sql id="createStudent">
+        insert into student (name,age) values (#{name},#{age})
+    </sql>
+
+</sql>

@@ -1,14 +1,16 @@
 <datasource>
     <ds id="mysql">
-        <url>jdbc:mysql://localhost:3306/source?useSSL=false&amp;characterEncoding=UTF-8</url>
+        <url>jdbc:mysql://localhost:3306/test?useSSL=false&amp;characterEncoding=UTF-8</url>
         <username>root</username>
         <password>root</password>
+        <drivrer>com.mysql.cj.jdbc.Driver</drivrer>
     </ds>
 
     <ds id="local_mysql">
         <url>jdbc:mysql://localhost:3306/db2019?useSSL=false&amp;characterEncoding=UTF-8</url>
         <username>root</username>
         <password>root</password>
+        <drivrer>com.mysql.cj.jdbc.Driver</drivrer>
     </ds>
 
 </datasource>

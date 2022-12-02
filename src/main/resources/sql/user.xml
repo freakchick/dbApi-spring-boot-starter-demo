@@ -1,0 +1,16 @@
+<sql>
+    <defaultDB>mysql</defaultDB>
+
+    <sql id="getUser">
+        select * from student
+    </sql>
+
+    <sql id="getUserIn" db="local_mysql">
+        select * from user where id in
+        <foreach collection="ids" open="(" close=")" separator=",">
+            #{item}
+        </foreach>
+
+    </sql>
+
+</sql>
